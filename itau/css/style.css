@@ -1,0 +1,231 @@
+    :root {
+    --blue: #0131ff;
+    --white-bkg: #f1f2f4;
+    --white: #ffffff;
+    --gray-border: #cfd1d3;
+    --gray-bkg: #f1f2f4;
+    --black: #000000;
+
+    --font: "Poppins", sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: var(--font);
+        background-color: var(--gray-bkg);
+    }
+
+    .header--identificacao, .header--icons, .header--nome {
+        background-color: var(--blue);
+    }
+
+
+    .header--itau, .header--circuilo, .header--nome, .header--icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .header--identificacao {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header--itau {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--blue);
+        padding: 10px;
+    }
+
+    .header--circuilo {
+        font-size: 15px;
+        color: var(--black);
+        background-color: var(--white);
+        margin-left: 10px;
+        padding: 5%;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .header--nome {
+        color: var(--white);
+        font-size: 20px;
+        font-style: initial;
+        font-weight: normal;
+    }
+
+    .header--icons img {
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .itau--saldo {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .h2--top--saldo {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--black);
+    }
+
+    .img--top--closed {
+        width: 30px;
+    }
+
+    .section--menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section--menu--item, .section--menu--item--img, .section--menu--item--font {
+        background-color: var(--white) !important;
+    }
+
+    .section--menu--item {
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        justify-content:space-between;
+        justify-self: flex-start;
+        box-sizing: border-box;
+    }
+
+    .section--menu--item--img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        object-fit: contain;
+    }
+
+    .section--menu--item--font {
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--black);
+        margin: 0;
+    }
+
+    #limite--disponivel {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-between !important;
+        background-color: var(--gray-bkg) !important;
+        border-radius: 10px !important;
+    }
+
+    #limite--disponivel--icons {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--gray-bkg) !important;
+    }
+
+    #limite--disponivel--icons img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        object-fit: contain;
+        background-color: var(--gray-bkg) !important;
+    }
+
+    #saldo--conta, #saldo--extrato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between !important;
+    }
+
+    #limite--conta-- {
+        display: flex;
+        flex-direction: row;
+        justify-content: end !important;
+        background-color: var(--gray-bkg) !important;
+    }
+
+    .section--saldo--extrato,
+    .section--saldo--extrato div,
+    .section--saldo--extrato h4,
+    .section--saldo--extrato img {
+        background-color: var(--white) !important;
+    }
+
+    .logo--itau {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .logo--itau img {
+        width: 40px;
+        height: auto;
+    }
+
+    .section--saldo--extrato {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+        background-color: var(--white);
+        border: var(--gray-border) 1px solid;
+        border-radius: 10px;
+    }
+
+    .saldo--conta,
+    .saldo--conta--extrato {
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        background-color: var(--white);
+    }
+
+    .saldo--conta--font,
+    .saldo--conta--blue--font {
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--black);
+        margin: 0;
+    }
+
+    .saldo--conta--img,
+    .saldo--conta--extrato--img, 
+    .retorno--icone {
+        width: 40px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .saldo-aberto {
+        background-color: var(--white) !important;
+    }
+
+    .saldo-aberto,
+    .limite-aberto {
+        font-size: 12px !important;
+    }
+
+    .saldo--conta--blue--font {
+        color: var(--blue);
+        font-weight: bold;
+    }
