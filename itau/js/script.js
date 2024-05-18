@@ -12,9 +12,9 @@ saldoClosedImg.addEventListener('click', () => {
         isOpen = true; 
     } else {
         saldoClosedImg.src = 'img/closed.png';
-        saldoConta.innerHTML = '<img class="retorno--icone" src="img/more-gray.png" alt="Saldo">';
+        saldoConta.innerHTML = '<h4 class="saldo--conta--pontos" alt="Itaú">....</h4>';
         saldoConta.classList.remove('saldo-aberto');
-        limiteDisponivel.innerHTML = '<img class="retorno--icone" src="img/more-black.png" alt="Limite Disponível">';
+        limiteDisponivel.innerHTML = '<h4 id="saldo--gray" alt="Itaú">....</h4>';
         limiteDisponivel.classList.remove('limite-aberto');
         isOpen = false;
     }
