@@ -13,9 +13,7 @@ saldoClosedImg.addEventListener('click', () => {
     } else {
         saldoClosedImg.src = 'img/closed.png';
         saldoConta.innerHTML = '<h4 class="saldo--conta--pontos" alt="Itaú">....</h4>';
-        saldoConta.classList.remove('saldo-aberto');
         limiteDisponivel.innerHTML = '<h4 id="saldo--gray" alt="Itaú">....</h4>';
-        limiteDisponivel.classList.remove('limite-aberto');
         isOpen = false;
     }
 });
